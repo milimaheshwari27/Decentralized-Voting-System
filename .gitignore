@@ -1,34 +1,72 @@
-# Dependency directories
+# Dependencies
 node_modules/
-.env
-package-lock.json
-
-# Hardhat artifacts
-artifacts/
-cache/
-typechain-types/
-
-# IDE files
-.vscode/
-.idea/
-*.iml
-*.swp
-*.swo
-
-# Log files
-logs/
-*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Coverage directory used by tools like istanbul
-coverage/
-coverage.json
-
-# Misc
-.DS_Store
+# Environment variables
+.env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
+
+# Hardhat files
+cache/
+artifacts/
+typechain/
+typechain-types/
+
+# Coverage reports
+coverage/
+coverage.json
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Build outputs
+dist/
+build/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+
+# Test results
+test-results/
+
+# Solidity compiler output
+contracts/*.sol.js
+
+# Hardhat network files
+localhost.json
+
+# Deployment artifacts
+deployments/
+deployment-*.json
+
+# Campaign data backups
+campaigns-backup/
